@@ -1,0 +1,58 @@
+#imagem {
+    height: 300px;
+    width: 500px;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Bree Serif';
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Raleway';
+}
+
+#bio {
+    padding: 50px;
+    font-size: 30px;
+}
+
+.menu {
+    position: fixed;
+    list-style: none;
+    top: 0px;
+    cursor: pointer;
+    z-index: 10;
+    text-decoration: underline;
+    justify-content: center;
+    display:flex;
+    width:100%;
+    background-color: coral;
+    margin:auto;
+}
+
+.links {
+    font-family: 'Crimson Text';
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.links:hover {
+    text-decoration: underline;
+    font-size:30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(49, 150, 212);
+}
+
+#escritos a {
+    text-decoration: underline !important;
+}
